@@ -14,4 +14,4 @@ pip install pipenv
 # NOTE: current version of pipenv 
 mkdir ~/code/test/test-pipenv-proj
 cd ~/code/test/test-pipenv-proj
-SETUPTOOLS_USE_DISTUTILS=stdlib pipenv install # https://github.com/microsoft/WSL/issues/8327
+SETUPTOOLS_USE_DISTUTILS=stdlib pipenv install reference: https://github.com/microsoft/WSL/issues/8327
