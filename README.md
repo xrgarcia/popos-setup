@@ -35,3 +35,7 @@ reference: https://docs.aws.amazon.com/serverless-application-model/latest/devel
 
 reference: https://linuxhint.com/install-docker-on-pop_os/
 run as non root: https://docs.docker.com/engine/install/linux-postinstall/
+
+## Using Git with Multiple AWS Accounts
+
+reference: https://aws.amazon.com/blogs/devops/using-git-with-aws-codecommit-across-multiple-aws-accounts/
