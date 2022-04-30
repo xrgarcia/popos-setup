@@ -39,3 +39,8 @@ run as non root: https://docs.docker.com/engine/install/linux-postinstall/
 ## Using Git with Multiple AWS Accounts
 
 reference: https://aws.amazon.com/blogs/devops/using-git-with-aws-codecommit-across-multiple-aws-accounts/
+
+## Setup Windows 11 for VirtualBox
+
+I use my pop os linux laptop work work. Windows 11 is necessary for me.  Here is the insturctions for setting up windows 11 in virtualbox: https://lazyadmin.nl/win-11/install-windows-11-in-virtualbox/
+
