@@ -44,3 +44,6 @@ reference: https://aws.amazon.com/blogs/devops/using-git-with-aws-codecommit-acr
 
 I use my pop os linux laptop work work. Windows 11 is necessary for me.  Here is the insturctions for setting up windows 11 in virtualbox: https://lazyadmin.nl/win-11/install-windows-11-in-virtualbox/
 
+## Improve Battery Life
+
+Reference: https://support.system76.com/articles/battery/
