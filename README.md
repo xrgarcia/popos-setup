@@ -47,3 +47,4 @@ I use my pop os linux laptop work work. Windows 11 is necessary for me.  Here is
 ## Improve Battery Life
 
 Reference: https://support.system76.com/articles/battery/
+How to add a shell script as an application: https://askubuntu.com/questions/141229/how-to-add-a-shell-script-to-launcher-as-shortcut
