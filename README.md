@@ -7,7 +7,7 @@ Pop os version 22 uses python 3.10 as the default. If you try and remove it, you
 ## My First goal is to get pipenv working.
 
 ```
-sudo apt install pip3
+sudo apt install pip
 pip --version
 pip install pipenv
 ```
