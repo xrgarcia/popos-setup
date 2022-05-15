@@ -11,7 +11,7 @@ sudo apt install pip
 pip --version
 pip install pipenv
 ```
-NOTE: add pipenv install dir to $PATH in .bashrc 
+NOTE: add pipenv install dir to $PATH in .bashrc, something like: export PATH="/path/to/dir:$PATH"
 
 ## Setup a pipenv
 ```
