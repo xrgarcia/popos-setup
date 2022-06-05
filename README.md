@@ -5,12 +5,12 @@ This is how i setup my popos linux laptop for development...
 Pop os version 22 uses python 3.10 as the default. If you try and remove it, you will have to rebuild the box :-(.
 
 ## install pyenv to manage python version
-visit here https://github.com/pyenv/pyenv#basic-github-checkout=
+So the default 3.10 (at present) has some issues.  Pyenv can/does use shims to ensure the python path(s) goes to something within the users control. highly recommended to install by visiting here https://github.com/pyenv/pyenv#basic-github-checkout=
 
 ## get Poetry working
 1. Install poetry by visiting https://python-poetry.org/docs/
 
-## get pipenv working.
+## Install Pipenv if needed
 
 ```
 sudo apt install pip
@@ -19,7 +19,7 @@ pip install pipenv
 ```
 NOTE: add pipenv install dir to $PATH in .bashrc, something like: export PATH="/path/to/dir:$PATH"
 
-## Setup a pipenv
+### Setup a pipenv
 ```
 mkdir ~/code/test/test-pipenv-proj
 cd ~/code/test/test-pipenv-proj
