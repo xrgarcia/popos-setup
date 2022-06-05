@@ -6,6 +6,9 @@ Pop os version 22 uses python 3.10 as the default. If you try and remove it, you
 
 Note: If you need to change the default python go visit https://www.skillsugar.com/how-to-change-the-default-python-version
 Note: To install poetry visit https://python-poetry.org/docs/
+```
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+```
 
 ## My First goal is to get pipenv working.
 
