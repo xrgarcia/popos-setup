@@ -4,10 +4,21 @@ This is how i setup my popos linux laptop for development...
 
 Pop os version 22 uses python 3.10 as the default. If you try and remove it, you will have to rebuild the box :-(.
 
-Note: If you need to change the default python go visit https://www.skillsugar.com/how-to-change-the-default-python-version
-Note: To install poetry visit https://python-poetry.org/docs/
+
 ```
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+```
+## get Poetry working
+1. Install poetry by visiting https://python-poetry.org/docs/
+2. Verify symlink python -> python3.10 by visiting https://www.skillsugar.com/how-to-change-the-default-python-version
+```
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
+```
+3. I would get a failure when a package i needed wanted to remove a system site package and would get a permission error
+```
+python -c 'import site; print(site.getsitepackages())'
+cd /usr/lib/python3/dist-packages
+sudo mv dist-packages/ dist-packages-old/
 ```
 
 ## My First goal is to get pipenv working.
