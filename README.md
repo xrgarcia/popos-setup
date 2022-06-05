@@ -8,26 +8,17 @@ Pop os version 22 uses python 3.10 as the default. If you try and remove it, you
 So the default 3.10 (at present) has some issues.  Pyenv can/does use shims to ensure the python path(s) goes to something within the users control. highly recommended to install by visiting here https://github.com/pyenv/pyenv#basic-github-checkout=
 
 ## get Poetry working
+
+### Install Directions
 1. Install poetry by visiting https://python-poetry.org/docs/
 2. https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 3. https://github.com/pyenv/pyenv/wiki/Common-build-problems
 
-## Install Pipenv (DEPRECATED)
-
-```
-sudo apt install pip
-pip --version
-pip install pipenv
-```
-NOTE: add pipenv install dir to $PATH in .bashrc, something like: export PATH="/path/to/dir:$PATH"
-
-### Setup a pipenv
-```
-mkdir ~/code/test/test-pipenv-proj
-cd ~/code/test/test-pipenv-proj
-SETUPTOOLS_USE_DISTUTILS=stdlib pipenv install
-```
-reference: https://github.com/microsoft/WSL/issues/8327
+### Delete a poetry env
+- cd into the folder where pyproject.toml is
+- Run ```poetry env list``` (this will show you the venv for that project)
+- Then run ```poetry env remove whatever-WhATeVs-py3.9``` to delete it
+- Running ```poetry shell``` after will create a new venv, after which running poetry install will install all the deps listed in pyproject.toml.
 
 
 ## Setup AWS cli
@@ -56,3 +47,21 @@ I use my pop os linux laptop work work. Windows 11 is necessary for me.  Here is
 
 Reference: https://support.system76.com/articles/battery/
 How to add a shell script as an application: https://askubuntu.com/questions/141229/how-to-add-a-shell-script-to-launcher-as-shortcut
+
+
+## Install Pipenv (DEPRECATED)
+
+```
+sudo apt install pip
+pip --version
+pip install pipenv
+```
+NOTE: add pipenv install dir to $PATH in .bashrc, something like: export PATH="/path/to/dir:$PATH"
+
+### Setup a pipenv
+```
+mkdir ~/code/test/test-pipenv-proj
+cd ~/code/test/test-pipenv-proj
+SETUPTOOLS_USE_DISTUTILS=stdlib pipenv install
+```
+reference: https://github.com/microsoft/WSL/issues/8327
