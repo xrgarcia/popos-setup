@@ -9,8 +9,10 @@ So the default 3.10 (at present) has some issues.  Pyenv can/does use shims to e
 
 ## get Poetry working
 1. Install poetry by visiting https://python-poetry.org/docs/
+2. https://github.com/pyenv/pyenv/wiki#suggested-build-environment
+3. https://github.com/pyenv/pyenv/wiki/Common-build-problems
 
-## Install Pipenv if needed
+## Install Pipenv (DEPRECATED)
 
 ```
 sudo apt install pip
