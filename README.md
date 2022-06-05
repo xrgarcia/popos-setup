@@ -4,6 +4,8 @@ This is how i setup my popos linux laptop for development...
 
 Pop os version 22 uses python 3.10 as the default. If you try and remove it, you will have to rebuild the box :-(.
 
+Note: If you need to change the default python go visit https://www.skillsugar.com/how-to-change-the-default-python-version
+
 ## My First goal is to get pipenv working.
 
 ```
