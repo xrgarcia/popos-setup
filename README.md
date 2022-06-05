@@ -21,7 +21,7 @@ cd /usr/lib/python3/dist-packages
 sudo mv dist-packages/ dist-packages-old/
 ```
 
-## My First goal is to get pipenv working.
+## get pipenv working.
 
 ```
 sudo apt install pip
