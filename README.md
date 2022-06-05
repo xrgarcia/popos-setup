@@ -9,12 +9,12 @@ So the default 3.10 (at present) has some issues.  Pyenv can/does use shims to e
 
 ## get Poetry working
 
-### Install Directions
+#### Install Directions
 1. Install poetry by visiting https://python-poetry.org/docs/
 2. https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 3. https://github.com/pyenv/pyenv/wiki/Common-build-problems
 
-### Delete a poetry env
+#### Delete a poetry env
 - cd into the folder where pyproject.toml is
 - Run ```poetry env list``` (this will show you the venv for that project)
 - Then run ```poetry env remove whatever-WhATeVs-py3.9``` to delete it
@@ -58,7 +58,7 @@ pip install pipenv
 ```
 NOTE: add pipenv install dir to $PATH in .bashrc, something like: export PATH="/path/to/dir:$PATH"
 
-### Setup a pipenv
+#### Setup a pipenv
 ```
 mkdir ~/code/test/test-pipenv-proj
 cd ~/code/test/test-pipenv-proj
