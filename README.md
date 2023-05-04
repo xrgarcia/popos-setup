@@ -2,6 +2,12 @@
 
 This is how i setup my popos linux laptop for development...
 
+
+## install zsh
+
+reference: https://ohmyz.sh/#install
+
+
 Pop os version 22 uses python 3.10 as the default. If you try and remove it, you will have to rebuild the box :-(.
 
 ## install pyenv to manage python version
